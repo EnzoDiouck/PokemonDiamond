@@ -1,0 +1,344 @@
+{
+ "lieu:Route 201": {
+  "reasoning": "Matt is heading towards Route 201 and Enzo should follow him to catch up.",
+  "new_plan": true,
+  "objective": "Follow Matt to Route 201",
+  "target_places": [
+   "Route 201"
+  ],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Matt"
+  }
+ },
+ "954e6b0adcb6de7267a84eba6da34001": {
+  "reasoning": "Matt is determined to find a Red Gyarados in their local lake and has decided to head there.",
+  "new_plan": true,
+  "objective": "Head to Lake Verity to search for the mystery Pokemon.",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "lieu:Verity Lakefront": {
+  "reasoning": "The player has arrived at Verity Lakefront and needs to proceed to Lake Verity as per the current plan.",
+  "new_plan": false,
+  "objective": "",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "lieu:Lake Verity": {
+  "reasoning": "Matt wants Enzo to explore Lake Verity for a mysterious Pokemon.",
+  "new_plan": true,
+  "objective": "Explore Lake Verity for the Red Gyarados-like Pokemon",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "6bc0415a550574485aa4349c519c04ac": {
+  "reasoning": "Matt is directing Enzo towards Lake Verity for their quest.",
+  "new_plan": true,
+  "objective": "Head to Lake Verity with Matt.",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "7ea9127d781dd0a821b06fc6fb9e1cdd": {
+  "reasoning": "Matt is confused and notices a briefcase. The player should investigate it.",
+  "new_plan": false,
+  "objective": "Examine the briefcase Matt found.",
+  "target_places": [],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Matt"
+  }
+ },
+ "47d49351bb3be41a8369f940430c9f64": {
+  "reasoning": "Matt is expressing his intention to find a Red Gyarados, and the professor acknowledges that something might be different. The dialogue suggests they should continue their quest.",
+  "new_plan": true,
+  "objective": "Find a Red Gyarados in Lake Verity",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "c91010d74a230343eef1eefafdb87c15": {
+  "reasoning": "The player encounters a professor and his assistant who have left behind a briefcase. This event introduces new characters and suggests there might be important information in the briefcase.",
+  "new_plan": true,
+  "objective": "Retrieve the briefcase from the professors and learn more about them.",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Dawn"
+  }
+ },
+ "0eb2b00a41cb5d148ee8dfeb69650437": {
+  "reasoning": "The dialogue indicates that Matt is still interested in finding a Red Gyarados and the professors have left, suggesting they may have information about it.",
+  "new_plan": false,
+  "objective": "Continue searching for Red Gyarados",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "retrieved_briefcase"
+  }
+ },
+ "5237e35f596c0b8c3976764149fb8814": {
+  "reasoning": "The dialogue indicates that Matt and Enzo should continue their quest for a Red Gyarados, possibly seeking more information from the professors or exploring further in Lake Verity.",
+  "new_plan": false,
+  "objective": "Explore Lake Verity further to find a Red Gyarados",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "df0297ea5564d27706b5d76f64b7eaf2": {
+  "reasoning": "The player finds a briefcase and must decide what to do with it, which changes the current plan.",
+  "new_plan": true,
+  "objective": "Decide what to do with the briefcase",
+  "target_places": [
+   "Route 201",
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "briefcase_decision_made"
+  }
+ },
+ "45d4cbb501ded2e7d6ad882dae0860b1": {
+  "reasoning": "The player finds a briefcase and must decide what to do with it, which is the next story event.",
+  "new_plan": true,
+  "objective": "Decide what to do with the briefcase",
+  "target_places": [
+   "Route 201",
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "nouveau_flag"
+  }
+ },
+ "467369eec61fa1deb5da63512281b502": {
+  "reasoning": "The dialogue does not directly instruct the player on what to do next but sets up an opportunity for interaction with Professor or Dawn.",
+  "new_plan": false,
+  "objective": "",
+  "target_places": [],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "nouveau_flag"
+  }
+ },
+ "d4267236d5002129727da425813aae78": {
+  "reasoning": "Matt and Enzo are inspired by the Red Gyarados and decide to find one in their local lake.",
+  "new_plan": true,
+  "objective": "Find a Red Gyarados in Lake Verity",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "Found Red Gyarados"
+  }
+ },
+ "675561177fabe566e7359e8a7daea991": {
+  "reasoning": "Matt wants to spend more time with his Chimchar and suggests finding a similar Pokemon in the local lake, indicating they should head back to Lake Verity.",
+  "new_plan": true,
+  "objective": "Return to Lake Verity to find a Red Gyarados",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "5e10cefff3ca3f078e18030f2b36f4a8": {
+  "reasoning": "Matt and Enzo are discussing their next steps after a battle, indicating they should explore the lake further.",
+  "new_plan": true,
+  "objective": "Explore Lake Verity for more Red Gyarados",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "bcf9a7144e9927654cf6e2c972b69e1e": {
+  "reasoning": "Matt wants to spend more time with his Chimchar before returning it, indicating a need for the player to acknowledge this sentiment.",
+  "new_plan": false,
+  "objective": "",
+  "target_places": [
+   "Verity Lakefront"
+  ],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Matt"
+  }
+ },
+ "62e0aa772da420397eca36b68374cb91": {
+  "reasoning": "The dialogue indicates that Matt and Enzo are planning their next move after the battle, focusing on finding a Red Gyarados.",
+  "new_plan": true,
+  "objective": "Head to Lake Verity to find a Red Gyarados",
+  "target_places": [
+   "Lake Verity"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Lake Verity"
+  }
+ },
+ "1d1af53bcf1b1705badb1c8ec718f150": {
+  "reasoning": "Matt wants to spend more time with a Pokémon before returning it.",
+  "new_plan": true,
+  "objective": "Return the borrowed Pokémon and continue searching for Red Gyarados.",
+  "target_places": [
+   "Verity Lakefront"
+  ],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Matt"
+  }
+ },
+ "36de2eef82be67e8014a23fcfae19d56": {
+  "reasoning": "Matt wants to spend more time with a borrowed Pokémon in Verity Lakefront, but he needs to return the Pokemon.",
+  "new_plan": true,
+  "objective": "Return borrowed Pokémon and proceed to Verity Lakefront",
+  "target_places": [
+   "Route 201"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Verity Lakefront"
+  }
+ },
+ "7ec6cb777ddb05fd203f31d98b2e9fb6": {
+  "reasoning": "Matt expresses a desire to keep battling with the borrowed Pokémon, indicating he wants to spend more time with them.",
+  "new_plan": false,
+  "objective": "",
+  "target_places": [],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "nouveau_flag"
+  }
+ },
+ "df1e74e029a2a153b81dc4c6abdcf387": {
+  "reasoning": "Matt is expressing his desire to keep the borrowed Pokémon longer, indicating a need for the player to return them soon.",
+  "new_plan": false,
+  "objective": "",
+  "target_places": [],
+  "done_when": {
+   "type": "nouveau_flag",
+   "value": "nouveau_flag"
+  }
+ },
+ "lieu:Twinleaf Town": {
+  "reasoning": "Twinleaf Town is a new place for the player and likely contains important story elements or quests.",
+  "new_plan": true,
+  "objective": "Explore Twinleaf Town to find new paths and interactions.",
+  "target_places": [
+   "Twinleaf Town"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Twinleaf Town"
+  }
+ },
+ "a990a79b29bbaafe4b0726fe3f11dcb8": {
+  "reasoning": "The dialogue indicates that the player should visit Professor E and Dawn's lab.",
+  "new_plan": true,
+  "objective": "Visit Professor E and Dawn’s lab",
+  "target_places": [
+   "Verity Lakefront"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Verity Lakefront"
+  }
+ },
+ "5ac05ab68dc7ef0e020b64f3b8bba5a5": {
+  "reasoning": "The dialogue indicates that Enzo needs to visit Professor Rowan in Sandgem Town and explains the reason.",
+  "new_plan": true,
+  "objective": "Visit Professor Rowan in Sandgem Town",
+  "target_places": [
+   "Sandgem Town"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Sandgem Town"
+  }
+ },
+ "dd0e3ab038f4a9c1b5a06bd5a8098e26": {
+  "reasoning": "Matt is expressing his attachment to the borrowed Pokémon and needs guidance on returning them. This dialogue suggests moving towards resolving this issue.",
+  "new_plan": true,
+  "objective": "Return borrowed Turtwig to its owner",
+  "target_places": [
+   "Route 201"
+  ],
+  "done_when": {
+   "type": "parler_a",
+   "value": "Turtwig's owner"
+  }
+ },
+ "91a3e380735f8f8bb124abc5bab3c3ee": {
+  "reasoning": "Matt suggests visiting Professor Rowan in Sandgem Town.",
+  "new_plan": true,
+  "objective": "Visit Professor Rowan in Sandgem Town",
+  "target_places": [
+   "Sandgem Town"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Sandgem Town"
+  }
+ },
+ "946078f3b023727a217f1488bdc6dabf": {
+  "reasoning": "Matt and Enzo are discussing returning borrowed Pokémon and Professor Rowan's lab is mentioned.",
+  "new_plan": true,
+  "objective": "Visit Professor Rowan in Sandgem Town to explain the situation.",
+  "target_places": [
+   "Sandgem Town"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Sandgem Town"
+  }
+ },
+ "8dfca63000507101b3ce4ef96e59c476": {
+  "reasoning": "The dialogue suggests Enzo should visit Professor Rowan in Sandgem Town and put on the Running Shoes to travel faster.",
+  "new_plan": false,
+  "objective": "Visit Professor Rowan in Sandgem Town",
+  "target_places": [
+   "Sandgem Town"
+  ],
+  "done_when": {
+   "type": "entrer_lieu",
+   "value": "Sandgem Town"
+  }
+ }
+}

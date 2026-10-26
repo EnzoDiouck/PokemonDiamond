@@ -1,0 +1,18 @@
+{
+  "slot": 1,
+  "record": [
+    0,
+    0
+  ],
+  "history": [],
+  "sortie": {
+    "fenetre": 1,
+    "position": [
+      411,
+      106,
+      888
+    ],
+    "total_steps": 175512,
+    "date": "2026-10-16 09:34:19"
+  }
+}

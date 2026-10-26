@@ -1,0 +1,72 @@
+{
+  "slot": 4,
+  "record": [
+    0,
+    0,
+    81
+  ],
+  "history": [
+    {
+      "etape": 1,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 2,
+      "flags": 79,
+      "fenetre": 3,
+      "total_steps": 579588,
+      "heure": "19:38:04"
+    },
+    {
+      "etape": 2,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 3,
+      "flags": 80,
+      "fenetre": 3,
+      "total_steps": 594196,
+      "heure": "19:57:11"
+    },
+    {
+      "etape": 3,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 4,
+      "flags": 81,
+      "fenetre": 4,
+      "total_steps": 605072,
+      "heure": "20:09:26"
+    }
+  ],
+  "sortie": {
+    "fenetre": 1,
+    "position": [
+      411,
+      106,
+      888
+    ],
+    "total_steps": 175512,
+    "date": "2026-10-16 09:34:19"
+  },
+  "ancien_historique": [
+    {
+      "etape": 1,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 2,
+      "flags": 79,
+      "fenetre": 4,
+      "total_steps": 557812,
+      "heure": "19:13:49"
+    },
+    {
+      "etape": 2,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 3,
+      "flags": 80,
+      "fenetre": 4,
+      "total_steps": 558496,
+      "heure": "19:14:20"
+    }
+  ]
+}

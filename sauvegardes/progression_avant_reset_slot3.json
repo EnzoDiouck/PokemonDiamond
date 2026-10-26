@@ -1,0 +1,40 @@
+{
+  "slot": 3,
+  "record": [
+    0,
+    0,
+    80
+  ],
+  "history": [
+    {
+      "etape": 1,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 2,
+      "flags": 79,
+      "fenetre": 4,
+      "total_steps": 557812,
+      "heure": "19:13:49"
+    },
+    {
+      "etape": 2,
+      "badges": 0,
+      "equipe": 0,
+      "slot": 3,
+      "flags": 80,
+      "fenetre": 4,
+      "total_steps": 558496,
+      "heure": "19:14:20"
+    }
+  ],
+  "sortie": {
+    "fenetre": 1,
+    "position": [
+      411,
+      106,
+      888
+    ],
+    "total_steps": 175512,
+    "date": "2026-10-16 09:34:19"
+  }
+}
